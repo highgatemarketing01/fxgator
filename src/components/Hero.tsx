@@ -20,7 +20,7 @@ export function Hero() {
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12 opacity-0 animate-fadeInUp">
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-2xl">
-            Our Forex Trading Blueprint to Consistent Payouts
+            Our Forex Trading Blueprint to <span className="text-green-500">Consistent Payouts</span>
           </h1>
         </div>
 
