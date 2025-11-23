@@ -9,11 +9,6 @@ export function Hero() {
           </h1>
         </div>
 
-        <div className="relative max-w-4xl mx-auto mb-8 opacity-0 animate-scaleIn" style={{ animationDelay: '0.3s' }}>
-          <div className="relative aspect-video bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden border border-gray-700 shadow-2xl hover:border-green-500/50 transition-all duration-500 hover:scale-[1.02] flex items-center justify-center">
-            <div className="text-gray-500 text-lg">Video Placeholder</div>
-          </div>
-        </div>
       </div>
     </section>
   );
