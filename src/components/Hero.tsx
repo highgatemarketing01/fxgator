@@ -11,13 +11,13 @@ export function Hero() {
 
         <div className="relative max-w-4xl mx-auto mb-8 opacity-0 animate-scaleIn" style={{ animationDelay: '0.3s' }}>
           <div className="relative aspect-video bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden border border-gray-700 shadow-2xl hover:border-green-500/50 transition-all duration-500 hover:scale-[1.02]">
-            <iframe
+<iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/RKP2BeONRAw?enablejsapi=1&origin=https://stackblitz.com"
+              src="https://www.youtube.com/embed/RKP2BeONRAw"
               title="FX Gator Trading Video"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen={true}
-              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
             ></iframe>
           </div>
         </div>
