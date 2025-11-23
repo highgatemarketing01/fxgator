@@ -13,10 +13,11 @@ export function Hero() {
           <div className="relative aspect-video bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden border border-gray-700 shadow-2xl hover:border-green-500/50 transition-all duration-500 hover:scale-[1.02]">
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/RKP2BeONRAw"
+              src="https://www.youtube.com/embed/RKP2BeONRAw?enablejsapi=1&origin=https://stackblitz.com"
               title="FX Gator Trading Video"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen={true}
+              referrerPolicy="strict-origin-when-cross-origin"
             ></iframe>
           </div>
         </div>
