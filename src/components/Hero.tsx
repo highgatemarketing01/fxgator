@@ -1,9 +1,25 @@
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      'spline-viewer': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement> & { url: string }, HTMLElement>;
+    }
+  }
+}
+
 export function Hero() {
   return (
     <section className="relative pt-32 pb-16 px-6 overflow-hidden">
-      <div className="max-w-6xl mx-auto">
+      <div className="absolute inset-0 w-full h-full">
+        <spline-viewer
+          url="https://prod.spline.design/KjwJc0Z4z-Hb2j97/scene.splinecode"
+          style={{ width: '100%', height: '100%', position: 'absolute', top: 0, left: 0 }}
+        ></spline-viewer>
+        <div className="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+      </div>
+
+      <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12 opacity-0 animate-fadeInUp">
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-2xl">
             Become a <span className="text-green-500">funded forex trader</span><br />
             in <span className="text-green-500 underline">MONTHS</span> using our <span className="text-green-500">strategies</span>
           </h1>
