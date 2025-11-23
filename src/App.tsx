@@ -1,3 +1,4 @@
+import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { WaitlistForm } from './components/WaitlistForm';
 import { ProblemSection } from './components/ProblemSection';
@@ -10,6 +11,7 @@ import { CTASection } from './components/CTASection';
 function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black">
+      <Header />
       <Hero />
       <WaitlistForm />
       <ProblemSection />
