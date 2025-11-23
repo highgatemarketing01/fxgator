@@ -26,6 +26,23 @@ export function WaitlistForm() {
         }
         setStatus('error');
       } else {
+        const makeWebhookUrl = import.meta.env.VITE_MAKE_WEBHOOK_URL;
+        if (makeWebhookUrl && makeWebhookUrl !== 'YOUR_MAKE_WEBHOOK_URL_HERE') {
+          try {
+            const webhookUrl = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/waitlist-webhook`;
+            await fetch(webhookUrl, {
+              method: 'POST',
+              headers: {
+                'Authorization': `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({ email, makeWebhookUrl }),
+            });
+          } catch (webhookError) {
+            console.error('Webhook error:', webhookError);
+          }
+        }
+
         setStatus('success');
         setName('');
         setEmail('');
