@@ -5,7 +5,7 @@ export function AgitateSection() {
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight opacity-0 animate-fadeInUp">
           Every Day You Wait, You're Missing Out on{' '}
-          <span className="text-green-500 inline-block animate-float">Potential Profits</span>
+          <span className="text-green-500 inline-block opacity-0 animate-slideUpUnderline" style={{ animationDelay: '0.5s' }}>Potential Profits</span>
         </h2>
         <p className="text-gray-300 text-lg md:text-xl leading-relaxed mb-8 opacity-0 animate-fadeInUp" style={{ animationDelay: '0.2s' }}>
           While you're stuck in analysis paralysis, others are already making consistent profits with proven strategies. The forex market doesn't wait for anyone, and neither should you.
