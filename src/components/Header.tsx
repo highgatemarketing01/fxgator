@@ -4,8 +4,7 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src="/FX GATOR logo only.png" alt="FX Gator Logo" className="w-12 h-12" />
-            <span className="text-2xl font-bold text-white">FX Gator</span>
+            <img src="/FX GATOR.png" alt="FX Gator" className="h-14" />
           </div>
           <nav className="hidden md:block">
             <span className="text-gray-400 text-sm">Your Path to Trading Success</span>
