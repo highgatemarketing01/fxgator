@@ -1,4 +1,17 @@
 import { Target, Lightbulb, Rocket } from 'lucide-react';
+import { useEffect } from 'react';
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      'spline-viewer': {
+        url: string;
+        style?: React.CSSProperties;
+        className?: string;
+      };
+    }
+  }
+}
 
 export function SolutionSection() {
   const solutions = [
@@ -7,9 +20,39 @@ export function SolutionSection() {
     { icon: Rocket, title: 'Fast Results', desc: 'Scale to consistent pay-outs within 90 days with our structured program.' }
   ];
 
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.type = 'module';
+    script.src = 'https://unpkg.com/@splinetool/viewer@1.12.0/build/spline-viewer.js';
+    document.head.appendChild(script);
+
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
+
   return (
-    <section className="py-20 px-6 bg-gray-900">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-20 px-6 bg-gray-900 relative overflow-hidden">
+      <spline-viewer
+        url="https://prod.spline.design/aHrtmzy6gUYSKPqm/scene.splinecode"
+        className="absolute left-0 top-1/4 w-96 h-96 opacity-30 pointer-events-none"
+        style={{
+          animation: 'spinAndHover 8s ease-in-out infinite',
+          transform: 'translateX(-20%)'
+        }}
+      />
+
+      <spline-viewer
+        url="https://prod.spline.design/aHrtmzy6gUYSKPqm/scene.splinecode"
+        className="absolute right-0 top-1/4 w-96 h-96 opacity-30 pointer-events-none"
+        style={{
+          animation: 'spinAndHoverReverse 8s ease-in-out infinite',
+          animationDelay: '4s',
+          transform: 'translateX(20%) scaleX(-1)'
+        }}
+      />
+
+      <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-16 opacity-0 animate-fadeInUp">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
             Introducing <span className="text-green-500">FX Gator</span>
