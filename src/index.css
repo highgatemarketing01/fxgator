@@ -10,8 +10,20 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Fighting Spirit';
+  src: url('/fonts/FightingSpirit.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fighting Spirit', sans-serif;
 }
 
 @keyframes float {
