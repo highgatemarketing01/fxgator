@@ -36,7 +36,7 @@ export function WaitlistForm() {
                 'Authorization': `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
                 'Content-Type': 'application/json',
               },
-              body: JSON.stringify({ email, makeWebhookUrl }),
+              body: JSON.stringify({ name, email, makeWebhookUrl }),
             });
           } catch (webhookError) {
             console.error('Webhook error:', webhookError);

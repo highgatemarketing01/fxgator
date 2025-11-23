@@ -15,7 +15,7 @@ Deno.serve(async (req: Request) => {
   }
 
   try {
-    const { email, makeWebhookUrl } = await req.json();
+    const { name, email, makeWebhookUrl } = await req.json();
 
     if (!email || !makeWebhookUrl) {
       return new Response(
@@ -36,6 +36,7 @@ Deno.serve(async (req: Request) => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
+        name,
         email,
         timestamp: new Date().toISOString(),
         source: "fx-gator-waitlist",
