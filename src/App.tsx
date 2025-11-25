@@ -14,11 +14,11 @@ function App() {
       <Header />
       <Hero />
       <WaitlistForm />
+      <TestimonialsSection />
       <ProblemSection />
       <AgitateSection />
       <SolutionSection />
       <FeaturesSection />
-      <TestimonialsSection />
       <CTASection />
     </div>
   );

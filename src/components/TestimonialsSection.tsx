@@ -2,13 +2,12 @@ import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const testimonials = [
-  '/testimonials/IMG_0471.PNG',
-  '/testimonials/IMG_3365.png',
-  '/testimonials/IMG_3367.JPG',
-  '/testimonials/IMG_3368.JPG',
-  '/testimonials/IMG_3370.JPG',
-  '/testimonials/IMG_3374.png',
-  '/testimonials/IMG_7823.PNG',
+  '/testimonials/IMG_1004.JPG',
+  '/testimonials/IMG_1005.JPG',
+  '/testimonials/IMG_1006.JPG',
+  '/testimonials/IMG_1007.JPG',
+  '/testimonials/IMG_1008.JPG',
+  '/testimonials/IMG_1009.JPG',
 ];
 
 export function TestimonialsSection() {
