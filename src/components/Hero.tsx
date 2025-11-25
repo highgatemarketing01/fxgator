@@ -27,12 +27,12 @@ export function Hero() {
         <div className="relative max-w-4xl mx-auto mb-8 opacity-0 animate-scaleIn" style={{ animationDelay: '0.3s' }}>
           <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl overflow-hidden border border-gray-700 shadow-2xl hover:border-green-500/50 transition-all duration-500 hover:scale-[1.02]" style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
             <iframe
-              src="https://www.youtube.com/embed/TUdhV5v9zEM"
+              src="https://player.vimeo.com/video/1140248045?badge=0&autopause=0&player_id=0&app_id=58479"
               frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
               style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
-              title="FX Gator Trading Blueprint"
+              title="SIGN UP NOW!"
             ></iframe>
           </div>
         </div>
