@@ -26,11 +26,11 @@ export function PricingSection() {
             <ul className="space-y-4 mb-8">
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Forex trade signals (3–8 per week)</span>
+                <span className="text-gray-300">Take the exact same trades as us</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Instant Telegram alerts</span>
+                <span className="text-gray-300">Instant alerts</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
@@ -38,15 +38,11 @@ export function PricingSection() {
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Read-only access to the community</span>
+                <span className="text-gray-300">Live trade breakdown calls</span>
               </li>
               <li className="flex items-start gap-3">
                 <X className="w-6 h-6 text-gray-600 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-500">Live trade breakdown calls</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <X className="w-6 h-6 text-gray-600 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-500">1-1 mentoring</span>
+                <span className="text-gray-500">Learn directly from us</span>
               </li>
               <li className="flex items-start gap-3">
                 <X className="w-6 h-6 text-gray-600 flex-shrink-0 mt-0.5" />
@@ -55,10 +51,6 @@ export function PricingSection() {
               <li className="flex items-start gap-3">
                 <X className="w-6 h-6 text-gray-600 flex-shrink-0 mt-0.5" />
                 <span className="text-gray-500">Custom trading plan</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <X className="w-6 h-6 text-gray-600 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-500">VIP access</span>
               </li>
             </ul>
 
@@ -75,30 +67,39 @@ export function PricingSection() {
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold text-white mb-2">1-1 Mentoring</h3>
               <div className="flex items-baseline justify-center gap-2 mb-4">
-                <span className="text-5xl font-bold text-green-500">£450</span>
+                <span className="text-5xl font-bold text-green-500">£200</span>
+                <span className="text-gray-400 text-lg">/month</span>
               </div>
             </div>
 
             <ul className="space-y-4 mb-8">
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Four 1-1 mentoring calls</span>
+                <span className="text-gray-300">Take the exact same trades as us (Free for a month)</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Bespoke trading plan tailored to your strategy</span>
+                <span className="text-gray-300">Instant alerts</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Full VIP community access including signals for a month free</span>
+                <span className="text-gray-300">Basic trading resources</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">24/7 priority support</span>
+                <span className="text-gray-300">Live trade breakdown calls</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Live trade walkthroughs during calls</span>
+                <span className="text-gray-300">Learn directly from us</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
+                <span className="text-gray-300">Priority support</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
+                <span className="text-gray-300">Custom trading plan</span>
               </li>
             </ul>
 
