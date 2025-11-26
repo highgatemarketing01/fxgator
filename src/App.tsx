@@ -6,6 +6,7 @@ import { AgitateSection } from './components/AgitateSection';
 import { SolutionSection } from './components/SolutionSection';
 import { FeaturesSection } from './components/FeaturesSection';
 import { TestimonialsSection } from './components/TestimonialsSection';
+import { PricingSection } from './components/PricingSection';
 import { CTASection } from './components/CTASection';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <AgitateSection />
       <SolutionSection />
       <FeaturesSection />
+      <PricingSection />
       <CTASection />
     </div>
   );
