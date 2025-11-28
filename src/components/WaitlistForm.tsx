@@ -54,7 +54,7 @@ export function WaitlistForm() {
   };
 
   return (
-    <section className="py-16 px-6">
+    <section id="waitlist" className="py-16 px-6">
       <div className="max-w-2xl mx-auto">
         <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 md:p-12 border border-gray-700 shadow-2xl opacity-0 animate-scaleIn hover:border-green-500/50 transition-colors duration-500" style={{ animationDelay: '0.2s' }}>
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-4">

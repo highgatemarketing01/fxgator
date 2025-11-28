@@ -108,9 +108,12 @@ export function PricingSection() {
               </li>
             </ul>
 
-            <button className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-green-500/50 hover:shadow-green-500/70">
-              Get Premium Access
-            </button>
+            <a
+              href="#waitlist"
+              className="block w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-green-500/50 hover:shadow-green-500/70 text-center"
+            >
+              Join Waiting List
+            </a>
           </div>
         </div>
       </div>
