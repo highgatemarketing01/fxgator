@@ -1,4 +1,4 @@
-import { CheckCircle, ArrowRight, Mail, MessageCircle } from 'lucide-react';
+import { CheckCircle, ArrowRight, MessageCircle, TrendingUp } from 'lucide-react';
 
 export function ThankYouPage() {
   return (
@@ -20,22 +20,21 @@ export function ThankYouPage() {
 
         <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 mb-8 border border-gray-700/50 animate-fadeInUp" style={{ animationDelay: '0.2s' }}>
           <div className="flex items-start gap-4 mb-6">
-            <Mail className="w-6 h-6 text-green-400 flex-shrink-0 mt-1" />
+            <TrendingUp className="w-6 h-6 text-green-400 flex-shrink-0 mt-1" />
             <div className="text-left">
-              <h3 className="text-xl font-semibold text-white mb-2">Check Your Email</h3>
+              <h3 className="text-xl font-semibold text-white mb-2">Get Instant Access to Signals</h3>
               <p className="text-gray-300 leading-relaxed">
-                We've sent you a confirmation email with your order details and access instructions.
-                If you don't see it in your inbox, please check your spam folder.
+                Your access is ready! Click the button below to join our exclusive Discord server and start receiving live trading signals immediately. No waiting, no email confirmation needed.
               </p>
             </div>
           </div>
 
           <div className="border-t border-gray-700 pt-6">
-            <h3 className="text-lg font-semibold text-white mb-4">What Happens Next?</h3>
+            <h3 className="text-lg font-semibold text-white mb-4">What You Get Right Now:</h3>
             <ul className="space-y-3 text-left text-gray-300">
               <li className="flex items-start gap-3">
                 <span className="text-green-400 font-semibold flex-shrink-0">1.</span>
-                <span>You'll receive immediate access to your trading signals and resources</span>
+                <span>Instant access to daily trading signals as they happen</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-green-400 font-semibold flex-shrink-0">2.</span>
@@ -43,7 +42,11 @@ export function ThankYouPage() {
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-green-400 font-semibold flex-shrink-0">3.</span>
-                <span>Start receiving daily market analysis and trading opportunities</span>
+                <span>Real-time market analysis and trading opportunities</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-green-400 font-semibold flex-shrink-0">4.</span>
+                <span>Direct support from our expert trading team</span>
               </li>
             </ul>
           </div>
