@@ -1,4 +1,4 @@
-import { CheckCircle, ArrowRight, Mail } from 'lucide-react';
+import { CheckCircle, ArrowRight, Mail, MessageCircle } from 'lucide-react';
 
 export function ThankYouPage() {
   return (
@@ -50,6 +50,15 @@ export function ThankYouPage() {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeInUp" style={{ animationDelay: '0.3s' }}>
+          <a
+            href="https://discord.gg/PThbxePTFs"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 bg-[#5865F2] hover:bg-[#4752C4] text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg shadow-[#5865F2]/30"
+          >
+            <MessageCircle className="w-5 h-5" />
+            Join Our Discord Community
+          </a>
           <a
             href="/"
             className="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg shadow-green-500/30"
