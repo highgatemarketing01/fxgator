@@ -54,9 +54,14 @@ export function PricingSection() {
               </li>
             </ul>
 
-            <button className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-green-500/30 hover:shadow-green-500/50">
+            <a
+              href="https://buy.stripe.com/fZu28r0us30o2xtaFC"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-green-500/30 hover:shadow-green-500/50 text-center"
+            >
               Get Started
-            </button>
+            </a>
           </div>
 
           <div className="bg-gradient-to-br from-green-900/30 to-gray-900 rounded-2xl p-8 border-2 border-green-500 opacity-0 animate-scaleIn relative overflow-hidden shadow-xl shadow-green-500/20" style={{ animationDelay: '0.4s' }}>
