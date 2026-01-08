@@ -17,9 +17,19 @@ export function PricingSection() {
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-gray-700 opacity-0 animate-scaleIn hover:border-green-500/50 transition-all duration-500 hover:scale-105 shadow-xl hover:shadow-green-500/20" style={{ animationDelay: '0.2s' }}>
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold text-white mb-2">Signals Access</h3>
-              <div className="flex items-baseline justify-center gap-2 mb-4">
-                <span className="text-5xl font-bold text-green-500">£40</span>
-                <span className="text-gray-400 text-lg">/month</span>
+              <div className="flex flex-col items-center gap-2 mb-4">
+                <div className="flex items-baseline justify-center gap-2">
+                  <span className="text-5xl font-bold text-green-500">£150</span>
+                  <span className="text-gray-400 text-lg">/3 months</span>
+                </div>
+                <div className="text-gray-400 text-sm">or</div>
+                <div className="flex items-baseline justify-center gap-2">
+                  <span className="text-3xl font-bold text-green-500">£100</span>
+                  <span className="text-gray-400 text-base">/month</span>
+                </div>
+                <div className="bg-green-500/20 text-green-500 text-xs font-semibold px-3 py-1 rounded-full">
+                  50% off first month
+                </div>
               </div>
             </div>
 
@@ -72,39 +82,39 @@ export function PricingSection() {
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold text-white mb-2">1-1 Mentoring</h3>
               <div className="flex items-baseline justify-center gap-2 mb-4">
-                <span className="text-5xl font-bold text-green-500">£200</span>
-                <span className="text-gray-400 text-lg">/month</span>
+                <span className="text-5xl font-bold text-green-500">£75</span>
+                <span className="text-gray-400 text-lg">/call</span>
               </div>
             </div>
 
             <ul className="space-y-4 mb-8">
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Take the exact same trades as us (Free for a month)</span>
+                <span className="text-gray-300">One-on-one personalized sessions</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Instant alerts</span>
+                <span className="text-gray-300">Learn directly from experienced traders</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Basic trading resources</span>
+                <span className="text-gray-300">Custom trading strategy development</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Live trade breakdown calls</span>
+                <span className="text-gray-300">Live trade analysis and feedback</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Learn directly from us</span>
+                <span className="text-gray-300">Personalized risk management guidance</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Priority support</span>
+                <span className="text-gray-300">Priority support and direct access</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Custom trading plan</span>
+                <span className="text-gray-300">Flexible scheduling for calls</span>
               </li>
             </ul>
 
