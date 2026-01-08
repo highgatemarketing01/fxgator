@@ -68,7 +68,7 @@ export function PricingSection() {
             </ul>
 
             <a
-              href="https://buy.stripe.com/fZu28r0us30o2xtaFC14400"
+              href="https://buy.stripe.com/fZucN53GE6cAc83aFC14406"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-green-500/30 hover:shadow-green-500/50 text-center"
