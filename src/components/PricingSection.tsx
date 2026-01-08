@@ -16,7 +16,7 @@ export function PricingSection() {
         <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-gray-700 opacity-0 animate-scaleIn hover:border-green-500/50 transition-all duration-500 hover:scale-105 shadow-xl hover:shadow-green-500/20 relative flex flex-col" style={{ animationDelay: '0.2s' }}>
             <div className="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full">
-              50% OFF
+              MOST POPULAR
             </div>
 
             <div className="text-center mb-8">
@@ -75,10 +75,6 @@ export function PricingSection() {
           </div>
 
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border border-gray-700 opacity-0 animate-scaleIn hover:border-green-500/50 transition-all duration-500 hover:scale-105 shadow-xl hover:shadow-green-500/20 relative flex flex-col" style={{ animationDelay: '0.3s' }}>
-            <div className="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full">
-              MOST POPULAR
-            </div>
-
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold text-white mb-2">Signals Quarterly</h3>
               <div className="flex flex-col items-center gap-2 mb-4 min-h-[140px] justify-center">
