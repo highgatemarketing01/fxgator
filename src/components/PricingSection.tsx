@@ -30,6 +30,9 @@ export function PricingSection() {
                 <div className="text-gray-400 text-xs mt-2">
                   Then £100/month after
                 </div>
+                <div className="bg-green-500/20 border border-green-500/50 rounded-lg px-4 py-2 mt-3">
+                  <p className="text-green-400 text-sm font-semibold">Use code: <span className="text-green-300 font-bold">GATOR26</span></p>
+                </div>
               </div>
             </div>
 
